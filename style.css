@@ -78,7 +78,7 @@ body{
  }
 
  .menu-text{
-     min-width: 150px;
+     min-width: 220px;
  }
 
  .menu-img-container{
@@ -87,7 +87,7 @@ body{
  }
 
  .orders-container{
-     max-width: 150px;
+     max-width: 220px;
      margin: 0 auto;
      display: none;
       text-align: center;
@@ -98,7 +98,7 @@ body{
  }
 .orders-row{
      display: flex;
-     max-width: 150px;
+     max-width: 220px;
      justify-content: space-between;
  }
 
@@ -106,7 +106,7 @@ body{
  .orders-total{
      display: flex;
      justify-content: space-between;
-     max-width: 150px;
+     max-width: 220px;
  }
 
  .complete-order-btn{
