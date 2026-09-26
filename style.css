@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Smythe", system-ui;
+
+ }
+
+
+
+
+.header-container{
+    max-width: 500px;
+   position: relative;
+   display: inline-block;
+
+}
+
+.header-logo{
+    width: 100%;
+}
+
+.header-text{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.header-text h1{
+    margin-bottom: 0px;
+    color: white;
+    font-weight: normal;
+ }
+
+
+.header-text h2{
+    margin-top: 4px;
+    color: white;
+    font-weight: normal;
+ }
+
+ .container{
+     max-width: 600px;
+
+ }
+
+ .item-content{
+     max-width: 450px;
+     margin: 0 auto;
+     background-color: white;
+     padding: 10px 10px;
+ }
+
+ .menu-container{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid black;
+     padding: 0px 10px 25px 10px;
+     margin: 10px;
+     gap: 10px;
+     align-items: center;
+
+
+
+ }
+
+
+
+ .menu-img{
+ width: 100%;
+ height: auto;
+ object-fit: cover;
+
+ }
+
+ .menu-text{
+     min-width: 300px;
+ }
+
+ .menu-img-container{
+     width: 200px;
+     min-width: 0;
+ }
+
+ .orders-container{
+     max-width: 400px;
+     margin: 0 auto;
+     display: none;
+      text-align: center;
+ }
+
+ .orders-list{
+     border-bottom: 2px solid black;
+ }
+.orders-row{
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ .orders-total{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .complete-order-btn{
+     width: 100%;
+     background-color: forestgreen;
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-weight: bolder;
+     padding: 10px 15px;
+ }
+
+ .complete-order-btn:hover{
+     background-color: mediumseagreen;
+ }
+
+ /*payment modal*/
+
+ .modal{
+
+     max-width: 350px;
+     max-height: 300px;
+     display: none;
+     margin: 0 auto;
+     position: fixed;
+     top: 200px;
+     left: 0px;
+     right: 0px;
+     bottom: 10px;
+     background-color: white;
+     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+     border-radius: 8px;
+ }
+
+ .modal-inner{
+     padding: 10px;
+     margin: 0 auto;
+     text-align: center;
+
+ }
+
+ .payment-form input{
+     width: 100%;
+     padding: 10px;
+     border: 2px solid grey;
+     border-radius: 3px;
+     margin-bottom: 10px;
+
+ }
+
+ .pay-btn{
+     width: 100%;
+     background-color: forestgreen;
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-weight: bolder;
+     padding: 10px 15px;
+
+ }
+
+ /*order info*/
+
+ .order-info{
+     background-color: #ECFDF5;
+     color: #065F46;
+     padding: 10px;
+     max-width: 400px;
+     margin: 0 auto;
+     display: none;
+     text-align: center;
+ }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title></title>
+    </head>
+    <body>
+
+
+
+             <header>
+                <div class="header">
+                    <img src="./images/logo.png"  alt="resturant logo" class="header-logo" />
+                <div class="header-text">
+                    <h1> Ikechukwu's Diner</h1>
+                    <h2>The best burgers and pizzas in town</h2>
+                </div>
+                </div>
+            </header>
+
+            <div class="container">
+
+                <div class="item-content" id="item-content">
+                    </div>
+                    <div class="order-info" id="order-info">
+                    </div>
+
+                    <div id="orders-container" class="orders-container">
+                        <h3> Your order</h3>
+                        <div class="orders-list" id="orders-list"></div>
+                        <div class="orders-total" id="orders-total"></div>
+                         <button class="complete-order-btn" id="complete-order-btn"> Complete Order</button>
+                </div>
+
+                <div class="modal" id="modal">
+                  <div class="modal-inner" id="modal-inner">
+                        <h3> Enter Card details</h3>
+
+                  <form class="payment-form" id="payment-form">
+                      <input type="text" id="name" placeholder="Enter your name" autocomplete="cc-given-name" required />
+                      <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="19"  id="card-number" placeholder="Enter card number" required />
+                      <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="3" autocomplete="cc-csc" id="cvv" placeholder="Enter CVV" required />
+                      <button type="submit" class="pay-btn" id="pay-btn"> Pay </button>
+
+                  </form>
+                  </div>
+
+                </div>
+
+            </div>
+
+
+
+
+    </body>
+    <script src="./index.js" type="module"></script>
+
+</html>
